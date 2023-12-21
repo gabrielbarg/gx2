@@ -6,12 +6,14 @@ editor: visual
 
 ## Hola Gabriel
 
-Vas a comer morcilla en navidad?
+Vas a comer **morcilla** en navidad?
 
 ```{r}
 2 + 2
 
 ```
+
+### Todo bien?
 
 ```{r}
 2 * 4
