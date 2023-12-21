@@ -18,3 +18,9 @@ Vas a comer **morcilla** en navidad?
 ```{r}
 2 * 4
 ```
+ 
+```{r}
+14*23
+```
+ 
+ 
