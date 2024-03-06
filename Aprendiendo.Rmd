@@ -1,0 +1,43 @@
+---
+title: "Aprendiendo"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+mean(x)
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+``` {mean(x)}
+```
+
+CBCL$Sexo <- as.factor(CBCL$Sexo) CBCL$Muestra <- as.factor(CBCL$Muestra)
+
+save(CBCL, file = "CBCL.Rda")
+
+summary(CBCL) summary(CBCL\$Prob.Pens.)
+
+install.packages("psych")
+
+library(psych) describe(CBCL\$Prob.Pens.) ?psych::describe
+
+corr.test(CBCL[,c("Prob.Pens.", "Queja", "DeprAns")], method = c("pearson"), use = "complete.obs")
+
+corr.test("Prob.Pens.", "Queja", "DeprAns",) method = c("pearson"), use = "complete.obs"
+
+CBCL[1:73,] %\>% select("Prob.Pens.", "Queja", "DeprAns") %\>% corr.test()
+
+install.packages("dplyr") library(dplyr)
+
+CBCL[1:73] %\>% select("Prob.Pens.", "Queja",use = "complete.obs, method ="pearson" %\>% corr.test("Prob.Pens.", "Queja", "DeprAns")
+
+library(psych) CBCL[1:73,] %\>% select(Prob.Pens.", "Queja", "DeprAns") %\>% corr.test()
+
+```{}
+```
